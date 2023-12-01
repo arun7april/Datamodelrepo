@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A3593C39-962A-8574-1D9F-D8F006BCDDD7" name="Product">
+<createdBy>Arun Raj Kumar</createdBy>
+<createdTime>2023-07-12 20:55:12 UTC</createdTime>
+<generatorID>DA7D948A-C8D4-11A5-086D-9BC1C7BDBE87</generatorID>
+<ownerDesignName>Customer</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Product_Id" id="6DC63D87-1AA5-76B8-F14C-046C5201B671">
+<createdBy>Arun Raj Kumar</createdBy>
+<createdTime>2023-07-12 20:55:12 UTC</createdTime>
+<generatorID>E114F737-DF51-74C8-69B8-836226D218F6</generatorID>
+<ownerDesignName>Customer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Product_Name" id="E34F6988-1263-B7E5-8BE7-D4A379A7184F">
+<createdBy>Arun Raj Kumar</createdBy>
+<createdTime>2023-07-12 20:55:12 UTC</createdTime>
+<generatorID>0222479E-129C-6869-9924-245964A23C85</generatorID>
+<ownerDesignName>Customer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Product_Category" id="E58AEBDF-183D-9953-F4F0-E527EC6F7C66">
+<createdBy>Arun Raj Kumar</createdBy>
+<createdTime>2023-07-12 20:55:12 UTC</createdTime>
+<generatorID>BFB424B9-F198-E8DE-B547-5E8788ABA8D7</generatorID>
+<ownerDesignName>Customer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Product_Code" id="E9A1EE2D-584B-77AC-752C-2A4C6FFB8751">
+<createdBy>Arun Raj Kumar</createdBy>
+<createdTime>2023-07-12 20:55:12 UTC</createdTime>
+<generatorID>AFC5F46C-EA8A-CC13-5C3C-A6246B634103</generatorID>
+<ownerDesignName>Customer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Product_ID1" id="1102D370-23C3-AF76-CDB3-65097835D978">
+<createdBy>Arun Raj Kumar</createdBy>
+<createdTime>2023-07-12 20:55:12 UTC</createdTime>
+<ownerDesignName>Customer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EFFE8BD3-E907-FA03-B241-C49DABAFC61A" name="Product_PK">
+<createdBy>Arun Raj Kumar</createdBy>
+<createdTime>2023-07-12 20:55:12 UTC</createdTime>
+<ownerDesignName>Customer</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="1102D370-23C3-AF76-CDB3-65097835D978"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

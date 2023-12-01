@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A953C29C-BC26-5658-889F-3AF8D5E615C3" name="Customer_Sales">
+<createdBy>Arun Raj Kumar</createdBy>
+<createdTime>2023-07-12 20:55:12 UTC</createdTime>
+<ownerDesignName>Customer</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Customer_Customer_Id" id="F7030616-75CD-1162-6D0F-A9C7B12FC7FB">
+<createdBy>Arun Raj Kumar</createdBy>
+<createdTime>2023-07-12 20:55:12 UTC</createdTime>
+<ownerDesignName>Customer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9CB2D617-1240-7B01-8E01-0D31F72E10F2" referredColumn="AFDCE8B1-9541-5717-2FDC-DF577D93635E"/>
+</associations>
+</Column>
+<Column name="Sales_Sales_ID" id="40B2E93F-360D-E304-6F72-B50713F4D184">
+<createdBy>Arun Raj Kumar</createdBy>
+<createdTime>2023-07-12 20:55:12 UTC</createdTime>
+<ownerDesignName>Customer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A37C752-5AE0-54B7-2AAC-9FC6540717D7" referredColumn="0D4A5E61-0729-3FA3-6134-EE918BDC1512"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E0253A29-9958-6434-9B9D-6EBCFFBE345E" name="Customer_Sales_PK">
+<createdBy>Arun Raj Kumar</createdBy>
+<createdTime>2023-07-12 20:55:12 UTC</createdTime>
+<ownerDesignName>Customer</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7030616-75CD-1162-6D0F-A9C7B12FC7FB"/>
+<colUsage columnID="40B2E93F-360D-E304-6F72-B50713F4D184"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A192ACB-DEE3-0CA5-4CBE-A68C047B95F1" name="Customer_Sales_Customer_FK">
+<createdBy>Arun Raj Kumar</createdBy>
+<createdTime>2023-07-12 20:55:12 UTC</createdTime>
+<generatorID>9C171F1A-DA0E-9F8C-D8FD-5899FBE1A627</generatorID>
+<ownerDesignName>Customer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7030616-75CD-1162-6D0F-A9C7B12FC7FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="010E676C-EB3A-4729-039A-7B339DB45DE1" name="Customer_Sales_Sales_FK">
+<createdBy>Arun Raj Kumar</createdBy>
+<createdTime>2023-07-12 20:55:12 UTC</createdTime>
+<generatorID>9C171F1A-DA0E-9F8C-D8FD-5899FBE1A627</generatorID>
+<ownerDesignName>Customer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40B2E93F-360D-E304-6F72-B50713F4D184"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

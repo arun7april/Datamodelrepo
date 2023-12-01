@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Product Sales" directorySegmentName="seg_0" id="47C65558-7ACC-E2B1-5175-32A2A70E8C4A">
+<createdBy>Arun Raj Kumar</createdBy>
+<createdTime>2023-07-10 20:02:25 UTC</createdTime>
+<ownerDesignName>Customer</ownerDesignName>
+<engineerTo>
+<item key="3401D6F2-212A-C65A-5B39-4089314987DB" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DA7D948A-C8D4-11A5-086D-9BC1C7BDBE87</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5F925F48-FE6B-2D68-40D1-CFEA79B04D07</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

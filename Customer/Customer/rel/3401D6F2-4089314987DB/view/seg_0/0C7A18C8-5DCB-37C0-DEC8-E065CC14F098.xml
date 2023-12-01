@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="0C7A18C8-5DCB-37C0-DEC8-E065CC14F098" name="V_Customer">
+<createdBy>Arun Raj Kumar</createdBy>
+<createdTime>2023-07-12 21:16:58 UTC</createdTime>
+<ownerDesignName>Customer</ownerDesignName>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[CREATE VIEW V_Customer
+  ( Customer_Id
+   , Customer_Name
+   , Customer_DOB
+   , ADDRESS )
+ AS SELECT
+    Customer_Id
+   , Customer_Name
+   , Customer_DOB
+   , ADDRESS
+ FROM 
+    Customer ;]]></userDefinedSQL>
+<parsed>true</parsed>
+<originalTableID>263036C8-74A0-083C-34A2-C5715B9C33A8</originalTableID>
+<usedContainers>
+<container containerID="263036C8-74A0-083C-34A2-C5715B9C33A8"/>
+</usedContainers>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Customer_Id" id="A6A1DD57-FB30-C860-C7A9-67516C8A0878">
+<createdBy>Arun Raj Kumar</createdBy>
+<createdTime>2023-07-12 21:16:58 UTC</createdTime>
+<ownerDesignName>Customer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<reference>false</reference>
+<referencedColumn>AFDCE8B1-9541-5717-2FDC-DF577D93635E</referencedColumn>
+<table>263036C8-74A0-083C-34A2-C5715B9C33A8</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Customer_Name" id="531E72CC-3A6C-7DEF-15A7-32FD71F2F37E">
+<createdBy>Arun Raj Kumar</createdBy>
+<createdTime>2023-07-12 21:16:58 UTC</createdTime>
+<ownerDesignName>Customer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (50)</dataType>
+<reference>false</reference>
+<referencedColumn>345BDBB5-CF44-9F9C-08DA-BCA33612D98D</referencedColumn>
+<table>263036C8-74A0-083C-34A2-C5715B9C33A8</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Customer_DOB" id="658E9A73-9CAC-4D29-9E70-C93B3D0EB714">
+<createdBy>Arun Raj Kumar</createdBy>
+<createdTime>2023-07-12 21:16:58 UTC</createdTime>
+<ownerDesignName>Customer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATE</dataType>
+<reference>false</reference>
+<referencedColumn>6AF034E4-7503-DC0A-1274-DAD517DE4CF3</referencedColumn>
+<table>263036C8-74A0-083C-34A2-C5715B9C33A8</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ADDRESS" id="CD682918-39DF-8D65-D1ED-F2D7611A4D26">
+<createdBy>Arun Raj Kumar</createdBy>
+<createdTime>2023-07-12 21:16:58 UTC</createdTime>
+<ownerDesignName>Customer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (500)</dataType>
+<reference>false</reference>
+<referencedColumn>EE0089B0-A26E-4043-653F-16BFECEFA104</referencedColumn>
+<table>263036C8-74A0-083C-34A2-C5715B9C33A8</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="263036C8-74A0-083C-34A2-C5715B9C33A8">
+<container>true</container>
+<tableName>Customer</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="AFDCE8B1-9541-5717-2FDC-DF577D93635E">
+<columnName>Customer_Id</columnName>
+<tableName>Customer</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="345BDBB5-CF44-9F9C-08DA-BCA33612D98D">
+<columnName>Customer_Name</columnName>
+<tableName>Customer</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="6AF034E4-7503-DC0A-1274-DAD517DE4CF3">
+<columnName>Customer_DOB</columnName>
+<tableName>Customer</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="EE0089B0-A26E-4043-653F-16BFECEFA104">
+<columnName>ADDRESS</columnName>
+<tableName>Customer</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

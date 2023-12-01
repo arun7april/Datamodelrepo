@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign objectID="3401D6F2-212A-C65A-5B39-4089314987DB">
+   <object objectID="EFFE8BD3-E907-FA03-B241-C49DABAFC61A" markedGenerate="false"/>
+   <object objectID="A3593C39-962A-8574-1D9F-D8F006BCDDD7" markedGenerate="false"/>
+   <object objectID="7FB86430-550B-7867-812B-83101DC40B73" markedGenerate="false"/>
+   <object objectID="55073D8F-F24D-439D-3CFB-D656E3A22467" markedGenerate="false"/>
+   <object objectID="140B02B0-3222-77C2-2C19-D5ECD7034590" markedGenerate="false"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

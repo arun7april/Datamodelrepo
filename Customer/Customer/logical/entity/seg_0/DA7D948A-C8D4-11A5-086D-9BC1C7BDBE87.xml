@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DA7D948A-C8D4-11A5-086D-9BC1C7BDBE87" name="Product">
+<createdBy>Arun Raj Kumar</createdBy>
+<createdTime>2023-07-10 19:47:25 UTC</createdTime>
+<ownerDesignName>Customer</ownerDesignName>
+<engineerTo>
+<item key="3401D6F2-212A-C65A-5B39-4089314987DB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Product Id" id="E114F737-DF51-74C8-69B8-836226D218F6">
+<createdBy>Arun Raj Kumar</createdBy>
+<createdTime>2023-07-10 19:48:26 UTC</createdTime>
+<ownerDesignName>Customer</ownerDesignName>
+<engineerTo>
+<item key="3401D6F2-212A-C65A-5B39-4089314987DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Product Name" id="0222479E-129C-6869-9924-245964A23C85">
+<createdBy>Arun Raj Kumar</createdBy>
+<createdTime>2023-07-10 19:48:26 UTC</createdTime>
+<ownerDesignName>Customer</ownerDesignName>
+<engineerTo>
+<item key="3401D6F2-212A-C65A-5B39-4089314987DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Product Category" id="BFB424B9-F198-E8DE-B547-5E8788ABA8D7">
+<createdBy>Arun Raj Kumar</createdBy>
+<createdTime>2023-07-10 19:49:07 UTC</createdTime>
+<ownerDesignName>Customer</ownerDesignName>
+<engineerTo>
+<item key="3401D6F2-212A-C65A-5B39-4089314987DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Product Code" id="AFC5F46C-EA8A-CC13-5C3C-A6246B634103">
+<createdBy>Arun Raj Kumar</createdBy>
+<createdTime>2023-07-10 19:49:43 UTC</createdTime>
+<ownerDesignName>Customer</ownerDesignName>
+<engineerTo>
+<item key="3401D6F2-212A-C65A-5B39-4089314987DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

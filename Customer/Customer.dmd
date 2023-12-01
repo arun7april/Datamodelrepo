@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Customer" id="783556C9-40FB-1A91-9968-C09D84EE319C" version="3.5">
+<createdBy>Arun Raj Kumar</createdBy>
+<createdTime>2023-07-10 19:38:46 UTC</createdTime>
+<ownerDesignName>Customer Datamodel</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>783556C9-40FB-1A91-9968-C09D84EE319C</designId>
+</OSDM_Design>
