@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4465FD04-5FDC-E7FC-AB51-3A7840DBE3B3" name="Location">
+<createdBy>Arun Raj Kumar</createdBy>
+<createdTime>2023-12-06 13:47:49 UTC</createdTime>
+<ownerDesignName>Customer</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Lcation_id" id="34C3750F-FF0D-12A6-4375-BE87DADC9019">
+<createdBy>Arun Raj Kumar</createdBy>
+<createdTime>2023-12-06 13:48:18 UTC</createdTime>
+<ownerDesignName>Customer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F26E695C-44E5-4018-DB83-EEC0AC23CF07" name="Location_PK">
+<createdBy>Arun Raj Kumar</createdBy>
+<createdTime>2023-12-06 13:48:18 UTC</createdTime>
+<ownerDesignName>Customer</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34C3750F-FF0D-12A6-4375-BE87DADC9019"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
