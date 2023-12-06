@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Lcation_id" id="34C3750F-FF0D-12A6-4375-BE87DADC9019">
+<Column name="Lcation_id1" id="34C3750F-FF0D-12A6-4375-BE87DADC9019">
 <createdBy>Arun Raj Kumar</createdBy>
 <createdTime>2023-12-06 13:48:18 UTC</createdTime>
 <ownerDesignName>Customer</ownerDesignName>
@@ -16,6 +16,18 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="5E294EA9-2C80-2BCE-9A44-4859A1E11E65">
+<createdBy>Arun Raj Kumar</createdBy>
+<createdTime>2023-12-06 15:19:38 UTC</createdTime>
+<ownerDesignName>Customer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
