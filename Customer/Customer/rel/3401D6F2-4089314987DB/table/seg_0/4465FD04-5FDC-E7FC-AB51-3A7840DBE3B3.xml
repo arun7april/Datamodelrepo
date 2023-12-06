@@ -18,7 +18,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Name" id="5E294EA9-2C80-2BCE-9A44-4859A1E11E65">
+<Column name="Address" id="5E294EA9-2C80-2BCE-9A44-4859A1E11E65">
 <createdBy>Arun Raj Kumar</createdBy>
 <createdTime>2023-12-06 15:19:38 UTC</createdTime>
 <ownerDesignName>Customer</ownerDesignName>
@@ -30,13 +30,28 @@
 <ownDataTypeParameters>3,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Code" id="B10FB4B8-8640-74A1-2AD5-55A440367918">
+<Column name="City" id="B10FB4B8-8640-74A1-2AD5-55A440367918">
 <createdBy>Arun Raj Kumar</createdBy>
 <createdTime>2023-12-06 15:21:07 UTC</createdTime>
 <ownerDesignName>Customer</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>34</dataTypeSize>
+<ownDataTypeParameters>34,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zip" id="D8324902-5AA8-6791-6727-209A68AE854D">
+<createdBy>Arun Raj Kumar</createdBy>
+<createdTime>2023-12-06 15:28:18 UTC</createdTime>
+<ownerDesignName>Customer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>38</dataTypeSize>
+<ownDataTypeParameters>38,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
