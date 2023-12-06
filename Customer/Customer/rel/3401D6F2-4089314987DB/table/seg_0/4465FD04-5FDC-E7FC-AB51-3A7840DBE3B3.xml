@@ -30,6 +30,15 @@
 <ownDataTypeParameters>3,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Code" id="B10FB4B8-8640-74A1-2AD5-55A440367918">
+<createdBy>Arun Raj Kumar</createdBy>
+<createdTime>2023-12-06 15:21:07 UTC</createdTime>
+<ownerDesignName>Customer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="F26E695C-44E5-4018-DB83-EEC0AC23CF07" name="Location_PK">
